@@ -2,7 +2,7 @@
 """
 Created on Fri Feb 28 12:33:41 2020
 
-@author: Admin
+@author: Samson
 """
 
 import cv2
@@ -11,6 +11,7 @@ import numpy as np
 def nothing(x):
     pass
 
+# Creating a track bar for identifying the boundaires 
 
 cv2.namedWindow("Tracking")
 cv2.createTrackbar("lh","Tracking",0,255,nothing)
